@@ -1,0 +1,41 @@
+name: qr_code_scanner_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  path_provider:
+  open_file:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  shared_preferences:
+  http:
+  # scan QR Code
+  qr_code_scanner:
+  syncfusion_flutter_pdf:
+  pdf:
+  universal_html:
+  audioplayers:
+  animated_text_kit:
+
+  # create QR Code
+  barcode_widget: ^1.5.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
+assets:
+  - assets/
+fonts:
+  family: HacenTunisia
+  fonts:
+    - asset: assets/fonts/HacenTunisia.ttf
